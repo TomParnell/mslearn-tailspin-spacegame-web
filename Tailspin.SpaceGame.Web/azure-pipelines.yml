@@ -42,6 +42,7 @@ steps:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
+    # changed to suit
     vstsFeed: 'Space Game - web - Dependencies/TSWModels'
 
 - task: DotNetCoreCLI@2
